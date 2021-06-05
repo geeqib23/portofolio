@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import { motion } from 'framer-motion'
 import { useRouter } from 'next/router'
 
 function Navbar(props) {

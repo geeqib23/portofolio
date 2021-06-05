@@ -4,11 +4,13 @@
 
 @layer base {
   html,
-  body {
+  body,
+  div#__next {
     background-color: #191e23;
     color: aliceblue;
     padding: 0;
     margin: 0;
+    height: 100%;
     /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   }
 
@@ -36,6 +38,10 @@
     font-weight: normal;
     font-style: normal;
   }
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 .navbarItems {
