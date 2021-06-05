@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from './Footer'
-import Navbar from './Navbar'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 import Head from 'next/head'
 
 function Layout(props) {
@@ -12,22 +12,22 @@ function Layout(props) {
           <div>
             <ul className='social-networks bounce'>
               <li>
-                <a href='https://twitter.com/' class='icon-twitter'>
+                <a href='https://twitter.com/geeqib23' className='icon-twitter'>
                   Twitter
                 </a>
               </li>
               <li>
-                <a href='https://github.com' class='icon-github'>
+                <a href='https://github.com/geeqib23' className='icon-github'>
                   GitHub
                 </a>
               </li>
               <li>
-                <a href='https://instagram.com' class='icon-instagram'>
+                <a href='https://instagram.com' className='icon-instagram'>
                   Instagram
                 </a>
               </li>
               <li>
-                <a href='https://www.linkedin.com/' class='icon-linkedin'>
+                <a href='https://www.linkedin.com/' className='icon-linkedin'>
                   LinkedIn
                 </a>
               </li>
@@ -37,7 +37,7 @@ function Layout(props) {
       </div>
       <div className='flex flex-col items-center w-screen h-full row-span-2 md:col-span-2 bg-darkBlack'>
         <Navbar />
-        <div className='flex items-center justify-center w-11/12 h-5/6'>{props.children}</div>
+        <div className='flex items`-center justify-center w-11/12 mt-9 h-5/6 items-center'>{props.children}</div>
       </div>
       {/* <Footer /> */}
     </div>

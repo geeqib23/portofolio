@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 
 function Navbar(props) {
   const router = useRouter()
-  console.log(router.pathname == '/projects' ? ' active' : ' ')
+  // console.log(router.pathname == '/projects' ? ' active' : ' ')
   return (
     <div className='container flex items-center justify-center w-5/6 px-6 py-2 mx-auto shadow-2xl bg-darkShade rounded-b-3xl h-1/6'>
       {/* <Link href='/'>
