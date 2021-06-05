@@ -5,7 +5,7 @@
 @layer base {
   html,
   body {
-    /* background-color: #20252c; */
+    background-color: #191e23;
     color: aliceblue;
     padding: 0;
     margin: 0;
@@ -39,7 +39,7 @@
 }
 
 .navbarItems {
-  @apply px-4 font-mono text-lg text-secondary hover:text-primaryLight border-primaryTint md:text-2xl md:px-8;
+  @apply px-4 font-mono text-lg font-medium transition-all duration-1000 text-secondary hover:text-primaryLight border-primaryTint md:text-2xl md:px-8;
 }
 
 .navbarItems.active {
