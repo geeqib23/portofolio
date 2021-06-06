@@ -5,7 +5,7 @@ import Head from 'next/head'
 
 function Layout(props) {
   return (
-    <div className='grid w-screen h-full grid-rows-3 '>
+    <div className='grid w-screen h-screen grid-rows-3 '>
       <div className='flex items-center justify-center w-screen h-full bg-dark border-primary'>
         <div className='flex flex-col items-center justify-center h-1/2'>
           <div className='my-4 mb-3 text-5xl font-cursive text-primary'>Hey, I am Aqib.</div>

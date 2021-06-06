@@ -6,7 +6,7 @@ function Navbar(props) {
   const router = useRouter()
   // console.log(router.pathname == '/projects' ? ' active' : ' ')
   return (
-    <div className='container flex items-center justify-center w-5/6 px-6 py-2 mx-auto shadow-2xl bg-darkShade rounded-b-3xl h-1/6'>
+    <div className='container flex items-center justify-center flex-none w-5/6 px-6 py-2 mx-auto shadow-2xl navbar bg-darkShade rounded-b-3xl'>
       {/* <Link href='/'>
         <div className='text-base md:text-2xl'>geeqib</div>
       </Link> */}
