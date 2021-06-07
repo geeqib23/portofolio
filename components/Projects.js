@@ -6,78 +6,93 @@ function Projects(props) {
     <div className='container w-full h-full mx-auto my-5'>
       <div className='flex flex-col h-full'>
         {/* //// */}
-        <div class='flex flex-col-reverse items-center justify-center sm:flex-row sm:justify-center mb-2'>
-          <div class='z-50 p-3 mb-3 grid grid-cols-1 cursor-default select-none rounded bg-dark shadow-lg transform hover:scale-110 transition-all duration-150'>
-            <div class='font-semibold text-xl mb-1 ml-2 text-secondary dark:text-white'>Project Name</div>
-            <div class='my-2 mx-2 mr-5'>
-              <p class=' text-fontColor text-base'>A brief description of what the project is and what it does and technologies used.</p>
+        <div className='flex flex-col-reverse items-center justify-center mb-2 sm:flex-row sm:justify-center'>
+          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded shadow-lg cursor-default select-none bg-dark hover:scale-110'>
+            <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>HUMAP</div>
+            <div className='mx-2 my-2 mr-5'>
+              <p className='text-base text-fontColor'>Humap is a web app which aims to digitalize how societies interact within themselves by providing an easy interface to communicate which can result in creating better versions of themselves. This was made duing a 36 hour-long Hackathon event. It uses location to make people living nearby interact with each other.</p>
             </div>
             <div>
-              <div class='ml-2 font-semibold text-l text-gray-400'> Tech Stack:</div>
+              <div className='ml-2 font-semibold text-gray-400 text-l'> Tech Stack:</div>
               <div>
-                <span class='transform transition-all duration-150 inline-block bg-secondaryShade bg-opacity-75 rounded px-1 mx-1 py-1 text-xs font-thin hover:shadow-sm  hover:scale-105'>ReactJS</span>
-                <span class='transform transition-all duration-150 inline-block bg-primaryShade bg-opacity-100 rounded px-1 mx-1 py-1  text-xs font-thin hover:shadow-sm  hover:scale-105'>Tailwind</span>
-                <span class='transform transition-all duration-150 inline-block bg-secondaryShade  bg-opacity-75 rounded px-1 mx-1 py-1  text-xs font-thin hover:shadow-sm  hover:scale-105'>Javascript</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>ReactJS</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>Bootstrap</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>MongoDB</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>NodeJS</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>Mapbox</span>
               </div>
             </div>
-            <div class='flex mt-2 '>
-              <button class='transform underline mouse-pointer text-blue-800 text-sm  mx-2 py-1 px-2 font-semibold font-mono rounded hover:bg-gray-700 dark:hover:bg-gray-600 hover:scale-90   focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none'>Live</button>
-              <button class='transform underline mouse-pointer text-blue-800 text-sm px-2 py-1 font-semibold font-mono rounded hover:bg-gray-700 dark:hover:bg-gray-600  hover:scale-90 dark:focus:bg-gray-600 focus:outline-none'>Code</button>
+            <div className='flex mt-2 '>
+              <a href='https://humap-app.herokuapp.com/' className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'>
+                Live
+              </a>
+              <a href='https://github.com/geeqib23/humap' className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'>
+                Code
+              </a>
             </div>
           </div>
-          <div class=' w-2/3 sm:flex sm:w-1/2 justify-center sm:justify-start'>
-            <img class='z-0 w-full max-w-xs hover:bg-opacity-50 border-gray-600 border border-opacity-50 rounded-xl shadow-lg transition-all duration-150' src='https://camo.githubusercontent.com/78889a2ff752043bd00ea43b0dc9fb85b8818345e190b2af5ce4d4eff307db64/68747470733a2f2f692e696d6775722e636f6d2f645744334449522e6a7067'></img>
+          <div className='flex justify-center w-full sm:w-1/2 sm:justify-start'>
+            <img className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl' src='/images/humap.png'></img>
           </div>
         </div>
         {/* //// */}
 
-        <div class='flex flex-col-reverse items-center justify-center sm:flex-row sm:justify-center mb-2'>
-          <div class='z-50 p-3 mb-3 grid grid-cols-1 cursor-default select-none rounded bg-dark shadow-lg transform hover:scale-110 transition-all duration-150'>
-            <div class='font-semibold text-xl mb-1 ml-2 text-secondary dark:text-white'>Project Name</div>
-            <div class='my-2 mx-2 mr-5'>
-              <p class=' text-fontColor text-base'>A brief description of what the project is and what it does and technologies used.</p>
+        <div className='flex flex-col-reverse items-center justify-center mb-2 sm:flex-row sm:justify-center'>
+          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded shadow-lg cursor-default select-none bg-dark hover:scale-110'>
+            <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>SOCIAL MEDIA APP</div>
+            <div className='mx-2 my-2 mr-5'>
+              <p className='text-base text-fontColor'>This app is a kind of Facebook clone with users able to post, follow and chat with each other. All CRUD(Create, Read, Update, Delete) operations were implemented. </p>
             </div>
             <div>
-              <div class='ml-2 font-semibold text-l text-gray-400'> Tech Stack:</div>
+              <div className='ml-2 font-semibold text-gray-400 text-l'> Tech Stack:</div>
               <div>
-                <span class='transform transition-all duration-150 inline-block bg-secondaryShade bg-opacity-75 rounded px-1 mx-1 py-1 text-xs font-thin hover:shadow-sm  hover:scale-105'>ReactJS</span>
-                <span class='transform transition-all duration-150 inline-block bg-primaryShade bg-opacity-100 rounded px-1 mx-1 py-1  text-xs font-thin hover:shadow-sm  hover:scale-105'>Tailwind</span>
-                <span class='transform transition-all duration-150 inline-block bg-secondaryShade  bg-opacity-75 rounded px-1 mx-1 py-1  text-xs font-thin hover:shadow-sm  hover:scale-105'>Javascript</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>ReactJS</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>Bootstrap</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>MongoDB</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>NodeJS</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>WebSockets</span>
               </div>
             </div>
-            <div class='flex mt-2 '>
-              <button class='transform underline mouse-pointer text-blue-800 text-sm  mx-2 py-1 px-2 font-semibold font-mono rounded hover:bg-gray-700 dark:hover:bg-gray-600 hover:scale-90   focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none'>Live</button>
-              <button class='transform underline mouse-pointer text-blue-800 text-sm px-2 py-1 font-semibold font-mono rounded hover:bg-gray-700 dark:hover:bg-gray-600  hover:scale-90 dark:focus:bg-gray-600 focus:outline-none'>Code</button>
+            <div className='flex mt-2 '>
+              <a href='https://suspicious-ptolemy-828858.netlify.app/' className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'>
+                Live
+              </a>
+              <a href='https://github.com/geeqib23/social-media-app-react' className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'>
+                Code
+              </a>
             </div>
           </div>
-          <div class=' w-2/3 sm:flex sm:w-1/2 justify-center sm:justify-start'>
-            <img class='z-0 w-full max-w-xs hover:bg-opacity-50 border-gray-600 border border-opacity-50 rounded-xl shadow-lg transition-all duration-150' src='https://camo.githubusercontent.com/78889a2ff752043bd00ea43b0dc9fb85b8818345e190b2af5ce4d4eff307db64/68747470733a2f2f692e696d6775722e636f6d2f645744334449522e6a7067'></img>
+          <div className='flex justify-center w-full sm:w-1/2 sm:justify-start'>
+            <img className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl' src='/images/fbclone.png'></img>
           </div>
         </div>
         {/* //// */}
 
-        <div class='flex flex-col-reverse items-center justify-center sm:flex-row sm:justify-center mb-2'>
-          <div class='z-50 p-3 mb-3 grid grid-cols-1 cursor-default select-none rounded bg-dark shadow-lg transform hover:scale-110 transition-all duration-150'>
-            <div class='font-semibold text-xl mb-1 ml-2 text-secondary dark:text-white'>Project Name</div>
-            <div class='my-2 mx-2 mr-5'>
-              <p class=' text-fontColor text-base'>A brief description of what the project is and what it does and technologies used.</p>
+        <div className='flex flex-col-reverse items-center justify-center mb-2 sm:flex-row sm:justify-center'>
+          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded shadow-lg cursor-default select-none bg-dark hover:scale-110'>
+            <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>A TASK MANAGER APP API</div>
+            <div className='mx-2 my-2 mr-5'>
+              <p className='text-base text-fontColor'>A full-fledged API for a task manager app including user authentication and encryption using JSON Web Tokens. </p>
             </div>
             <div>
-              <div class='ml-2 font-semibold text-l text-gray-400'> Tech Stack:</div>
+              <div className='ml-2 font-semibold text-gray-400 text-l'> Tech Stack:</div>
               <div>
-                <span class='transform transition-all duration-150 inline-block bg-secondaryShade bg-opacity-75 rounded px-1 mx-1 py-1 text-xs font-thin hover:shadow-sm  hover:scale-105'>ReactJS</span>
-                <span class='transform transition-all duration-150 inline-block bg-primaryShade bg-opacity-100 rounded px-1 mx-1 py-1  text-xs font-thin hover:shadow-sm  hover:scale-105'>Tailwind</span>
-                <span class='transform transition-all duration-150 inline-block bg-secondaryShade  bg-opacity-75 rounded px-1 mx-1 py-1  text-xs font-thin hover:shadow-sm  hover:scale-105'>Javascript</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>NodeJS</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>MongoDB</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>Mongoose</span>
+                <span className='inline-block px-1 py-1 mx-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>JWT</span>
               </div>
             </div>
-            <div class='flex mt-2 '>
-              <button class='transform underline mouse-pointer text-blue-800 text-sm  mx-2 py-1 px-2 font-semibold font-mono rounded hover:bg-gray-700 dark:hover:bg-gray-600 hover:scale-90   focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none'>Live</button>
-              <button class='transform underline mouse-pointer text-blue-800 text-sm px-2 py-1 font-semibold font-mono rounded hover:bg-gray-700 dark:hover:bg-gray-600  hover:scale-90 dark:focus:bg-gray-600 focus:outline-none'>Code</button>
+            <div className='flex mt-2 '>
+              {/* <a href='https://suspicious-ptolemy-828858.netlify.app/' className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'>
+                Live
+              </a> */}
+              <a href='https://github.com/geeqib23/task-manager-api-node' className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'>
+                Code
+              </a>
             </div>
           </div>
-          <div class=' w-2/3 sm:flex sm:w-1/2 justify-center sm:justify-start'>
-            <img class='z-0 w-full max-w-xs hover:bg-opacity-50 border-gray-600 border border-opacity-50 rounded-xl shadow-lg transition-all duration-150' src='https://camo.githubusercontent.com/78889a2ff752043bd00ea43b0dc9fb85b8818345e190b2af5ce4d4eff307db64/68747470733a2f2f692e696d6775722e636f6d2f645744334449522e6a7067'></img>
-          </div>
+          <div className='flex justify-center w-full sm:w-1/2 sm:justify-start'>{/* <img className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl' src='/images/fbclone.png'></img> */}</div>
         </div>
       </div>
     </div>

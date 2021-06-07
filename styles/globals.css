@@ -130,7 +130,7 @@
 }
 .social-networks .icon-github:hover:before,
 .social-networks .icon-github:focus:before {
-  background: radial-gradient(gray, white);
+  background: radial-gradient(gray);
 }
 .social-networks .icon-instagram:after {
   content: '';

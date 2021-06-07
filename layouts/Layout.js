@@ -22,7 +22,7 @@ function Layout(props) {
                 </a>
               </li>
               <li>
-                <a href='https://instagram.com' className='icon-instagram'>
+                <a href='https://www.instagram.com/aqib_._/' className='icon-instagram'>
                   Instagram
                 </a>
               </li>
