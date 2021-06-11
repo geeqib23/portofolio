@@ -9,7 +9,7 @@ function KnowMe(props) {
         <p className=''>I pickup my skills loitering over the web trying to learn and build software products that solve a purpose. </p>
         <br></br>
         <div className='text-2xl font-semibold sm:text-3xl text-secondary'>
-          SKILLS - <span className='text-lg italic font-light sm:text-2xl text-fontColor'>ReactJS, NodeJS, MongoDB, Bootstrap, TailwindCSS, WebSockets, NextJS, Machine Learning </span>
+          SKILLS - <span className='text-lg italic font-light sm:text-2xl text-fontColor'>ReactJS, NodeJS, MongoDB, Bootstrap, TailwindCSS, WebSockets, NextJS, Express, Machine Learning </span>
         </div>
         <br></br>
         <div className=''>
