@@ -7,7 +7,7 @@
   body,
   div#__next {
     background-color: #191e23;
-    color: aliceblue;
+    color: #fff;
     padding: 0;
     margin: 0;
     /* height: 100%; */
@@ -25,7 +25,7 @@
   }
 
   @font-face {
-    font-weight: normal;
+    font-weight: bold;
     font-display: swap;
     font-family: 'Satisfy';
     src: url('/fonts/Satisfy-Regular.ttf');
@@ -39,13 +39,21 @@
     font-style: normal;
   }
 }
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
 
 .navbar {
   height: 80px;
 }
 
 .navbarItems {
-  @apply px-4 font-mono text-lg font-medium transition-all duration-1000 text-secondary hover:text-primaryLight border-primaryTint md:text-2xl md:px-8;
+  @apply px-4 font-mono text-lg font-medium transition-all duration-100 text-secondary hover:text-primaryLight border-primaryTint md:text-2xl md:px-8;
 }
 
 .navbarItems.active {

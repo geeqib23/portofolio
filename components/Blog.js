@@ -3,7 +3,9 @@ import React from 'react'
 function Blog({ title, hashtags }) {
   return (
     <div className='container w-full h-full mx-auto my-5'>
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
+      <p className='text-lg sm:text-2xl'>I am a tech-geek and read a lot online. In my blogs and tweets, I try to share with you the insights I have gained from my experiences. </p>
+      <br></br>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 '>
         <div className='m-2 transition-all duration-200 transform border rounded-lg cursor-pointer card bg-darkShade border-opacity-80 border-darkTint hover:shadow-md hover:border-opacity-0 hover:-translate-y-2'>
           <div className='m-3'>
             <h2 className='mb-2 text-lg font-semibold text-blue-50'>, sit amet consectetur adipisicing elit. Vel aliquam pariatur quis fugiat voluptas dolore.</h2>

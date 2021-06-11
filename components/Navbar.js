@@ -31,8 +31,8 @@ function Navbar(props) {
             </Link>
           </li>
           <li>
-            <Link href='/knowme' passHref>
-              <a className={router.pathname == '/knowme' ? 'navbarItems active' : 'navbarItems'}>KnowMe</a>
+            <Link href='/' passHref>
+              <a className={router.pathname == '/' ? 'navbarItems active' : 'navbarItems'}>KnowMe</a>
             </Link>
           </li>
         </ul>

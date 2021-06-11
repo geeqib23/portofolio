@@ -8,7 +8,10 @@ function Layout(props) {
     <div className='grid w-screen h-screen grid-rows-3 '>
       <div className='flex items-center justify-center w-screen h-full bg-dark border-primary'>
         <div className='flex flex-col items-center justify-center h-1/2'>
-          <div className='my-4 mb-3 text-5xl font-cursive text-primary'>Hey, I am Aqib.</div>
+          <div className='my-4 mb-3 text-primary'>
+            <span className='font-mono text-2xl sm:text-3xl '>👋 Hey! I am </span> <span className='block text-6xl text-center font-cursive sm:inline'> Aqib Suhail</span>
+          </div>
+          <br></br>
           <div>
             <ul className='social-networks bounce'>
               <li>
