@@ -39,6 +39,11 @@
     font-style: normal;
   }
 }
+.text-4xl {
+  font-size: 2.75rem/* 36px */;
+  line-height: 2.5rem/* 40px */;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -138,7 +143,7 @@
 }
 .social-networks .icon-github:hover:before,
 .social-networks .icon-github:focus:before {
-  background: radial-gradient(gray);
+  background: black;
 }
 .social-networks .icon-instagram:after {
   content: '';
