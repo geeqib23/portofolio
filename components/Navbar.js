@@ -18,7 +18,7 @@ function Navbar(props) {
           </svg>
         </button>
       </div> */}
-      <div className='block'>
+      <div >
         <ul className='inline-flex'>
           <li>
             <Link href='/projects' passHref>

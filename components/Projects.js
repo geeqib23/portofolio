@@ -4,7 +4,7 @@ import Layout from '../layouts/Layout'
 function Projects(props) {
   return (
     <div className='container w-full h-full mx-auto my-5'>
-      <p className='text-lg sm:text-2xl'>These include all the projects I made while learning some tech and projects that turned into reality because the idea behind them excited me to build them. </p>
+      <p className='text-lg sm:text-xl'>These include all the projects I made while learning some tech and projects that turned into reality because the idea behind them excited me to build them. </p>
       <br></br>
       <div className='flex flex-col h-full'>
         {/* //// */}
