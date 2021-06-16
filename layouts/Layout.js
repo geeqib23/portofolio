@@ -9,7 +9,7 @@ function Layout(props) {
       <div className='flex items-center justify-center w-screen h-full bg-dark border-primary'>
         <div className='flex flex-col items-center justify-center h-1/2'>
           <div className='my-4 mb-3 text-primary'>
-            <span className='font-mono text-2xl sm:text-3xl '>👋Hey! I am </span> <span className='block text-4xl sm:text-6xl text-center font-cursive sm:inline'> Aqib Suhail</span>
+            <span className='font-mono text-2xl sm:text-3xl '>👋 Hey! I am </span> <span className='block text-4xl sm:text-6xl text-center font-cursive sm:inline'> Aqib Suhail</span>
           </div>
           <br></br>
           <div>
