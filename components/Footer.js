@@ -8,17 +8,17 @@ function Footer(props) {
         <ul className='inline-flex'>
           <li>
             <Link href='/projects' passHref>
-              <a className='navbarItems'>Projects</a>
+              <a className='footer'>Projects</a>
             </Link>
           </li>
           <li>
             <Link href='/blogs' passHref>
-              <a className='navbarItems'>Blogs</a>
+              <a className='footer'>Blogs</a>
             </Link>
           </li>
           <li>
             <Link href='/' passHref>
-              <a className='navbarItems'>KnowMe</a>
+              <a className='footer'>KnowMe</a>
             </Link>
           </li>
         </ul>

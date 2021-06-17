@@ -4,7 +4,7 @@ import Layout from '../../layouts/Layout'
 
 function ProjectList(props) {
   return (
-    <Layout>
+    <Layout title='Aqib Suhail | Projects'>
       <Projects />
     </Layout>
   )
