@@ -10,34 +10,38 @@ function Post(props) {
   // console.log(props)
   return (
     <>
-    <Schema post = {props} />
-    <BlogLayout title={props.title} date={props.date} description={props.description}>
-      
-      <div className = 'prose'>
-          <ReactMarkdown children={props.content} 
-          renderers={{code: CodeBlock, image: Image}} 
+      <Schema post={props} />
+      <BlogLayout
+        title={props.title}
+        date={props.date}
+        description={props.description}
+      >
+        <div className='prose'>
+          <ReactMarkdown
+            children={props.content}
+            renderers={{ code: CodeBlock, image: Image }}
           />
-      </div>
-    </BlogLayout>
-  </>
+        </div>
+      </BlogLayout>
+    </>
   )
 }
 
-export async function getStaticProps(context){
+export async function getStaticProps(context) {
   return {
-      props : await getPostBySlug(context.params.slug)
+    props: await getPostBySlug(context.params.slug),
   }
 }
 
-export async function getStaticPaths(){
-    let paths = await getPosts()
-    paths = paths.map(post => ({
-        params: { slug:post.slug }
-    }))
-    return {
-        paths: paths,
-        fallback: false
-    }
+export async function getStaticPaths() {
+  let paths = await getPosts()
+  paths = paths.map(post => ({
+    params: { slug: post.slug },
+  }))
+  return {
+    paths: paths,
+    fallback: false,
+  }
 }
 
 export default Post

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-const site = 'https://torbet.co/'
+const site = 'https://aqib,vercel.app/'
 
 const Schema = ({ post }) => {
   const { title, description, date, slug } = post
@@ -13,7 +13,7 @@ const Schema = ({ post }) => {
       "name":"${title}",
       "headline":"${title}",
       "about": "${description}",
-      "author": { "@type": "Person", "name": "Guy Torbet" },
+      "author": { "@type": "Person", "name": "Aqib Suhail" },
       "publisher": { "@id": "${site}" },
       "image":"https://torbet.co/favicon.ico"
       "datePublished": "${date}",
