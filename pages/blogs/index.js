@@ -5,8 +5,8 @@ import { getPosts } from '../../api/index'
 
 function BlogList(props) {
   return (
-    <Layout>
-      <Blog posts={props.posts}/>
+    <Layout title='Aqib Suhail | Blogs'>
+      <Blog posts={props.posts} />
     </Layout>
   )
 }
@@ -16,9 +16,7 @@ export async function getStaticProps() {
   return {
     props: {
       posts: posts,
-    }
+    },
   }
 }
 export default BlogList
-
-

@@ -56,13 +56,13 @@ function Projects(props) {
             <div className='flex mt-2 '>
               <a
                 href='https://humap-app.herokuapp.com/'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
               >
                 Live
               </a>
               <a
                 href='https://github.com/geeqib23/humap'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
               >
                 Code
               </a>
@@ -72,6 +72,7 @@ function Projects(props) {
             <img
               className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl'
               src='/images/humap.png'
+              alt='humap.png'
             ></img>
           </div>
         </div>
@@ -115,13 +116,13 @@ function Projects(props) {
             <div className='flex mt-2 '>
               <a
                 href='https://suspicious-ptolemy-828858.netlify.app/'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
               >
                 Live
               </a>
               <a
                 href='https://github.com/geeqib23/social-media-app-react'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
               >
                 Code
               </a>
@@ -131,6 +132,8 @@ function Projects(props) {
             <img
               className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl'
               src='/images/fbclone.png'
+              alt='fbclone.png'
+              alt='ourtube.png'
             ></img>
           </div>
         </div>
@@ -172,12 +175,12 @@ function Projects(props) {
               </div>
             </div>
             <div className='flex mt-2 '>
-              {/* <a href='https://suspicious-ptolemy-828858.netlify.app/' className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'>
+              {/* <a href='https://suspicious-ptolemy-828858.netlify.app/' className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'>
                 Live
               </a> */}
               <a
                 href='https://github.com/akash-kd/devjam'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
               >
                 Code
               </a>
@@ -188,6 +191,7 @@ function Projects(props) {
               alt='ourtube.jpg'
               className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl'
               src='/images/ourtube.png'
+              alt='ourtube.png'
             ></img>
           </div>
         </div>
@@ -230,12 +234,12 @@ function Projects(props) {
               </div>
             </div>
             <div className='flex mt-2 '>
-              {/* <a href='https://suspicious-ptolemy-828858.netlify.app/' className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'>
+              {/* <a href='https://suspicious-ptolemy-828858.netlify.app/' className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'>
                 Live
               </a> */}
               <a
                 href='https://github.com/geeqib23/task-manager-api-node'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-800 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
               >
                 Code
               </a>

@@ -6,7 +6,11 @@ function Navbar(props) {
   const router = useRouter()
   // console.log(router.pathname == '/projects' ? ' active' : ' ')
   return (
-    <div className='container flex items-center justify-center flex-none w-5/6 px-6 py-2 mx-auto shadow-2xl navbar bg-darkShade rounded-b-3xl'>
+    <div
+      className='container flex items-center justify-center flex-none w-5/6 px-6 py-2 mx-auto shadow-2xl navbar bg-darkShade rounded-b-3xl'
+      itemScope
+      itemType='http://www.schema.org/SiteNavigationElement'
+    >
       {/* <Link href='/'>
         <div className='text-base md:text-2xl'>geeqib</div>
       </Link> */}
@@ -21,37 +25,43 @@ function Navbar(props) {
       <div>
         <ul className='inline-flex'>
           <li>
-            <Link href='/projects' passHref>
+            <Link href='/projects' passHref itemProp='url'>
               <a
                 className={
                   router.pathname == '/projects'
                     ? 'navbarItems active'
                     : 'navbarItems'
                 }
+                alt='Projects'
+                itemProp='url'
               >
                 Projects
               </a>
             </Link>
           </li>
           <li>
-            <Link href='/blogs' passHref>
+            <Link href='/blogs' passHref itemProp='url'>
               <a
                 className={
                   router.pathname == '/blogs'
                     ? 'navbarItems active'
                     : 'navbarItems'
                 }
+                alt='Blogs'
+                itemProp='url'
               >
                 Blogs
               </a>
             </Link>
           </li>
           <li>
-            <Link href='/' passHref>
+            <Link href='/' passHref itemProp='url'>
               <a
                 className={
                   router.pathname == '/' ? 'navbarItems active' : 'navbarItems'
                 }
+                alt='KnowMe'
+                itemProp='url'
               >
                 KnowMe
               </a>

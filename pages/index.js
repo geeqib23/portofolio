@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout'
 
 function KnowMe(props) {
   return (
-    <Layout>
+    <Layout title='Aqib Suhail | Portofolio'>
       <div className='text-lg sm:text-2xl'>
         <p className=''>
           I am an 18 year old student from India and a self-taught full-stack
