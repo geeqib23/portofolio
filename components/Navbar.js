@@ -18,21 +18,43 @@ function Navbar(props) {
           </svg>
         </button>
       </div> */}
-      <div >
+      <div>
         <ul className='inline-flex'>
           <li>
             <Link href='/projects' passHref>
-              <a className={router.pathname == '/projects' ? 'navbarItems active' : 'navbarItems'}>Projects</a>
+              <a
+                className={
+                  router.pathname == '/projects'
+                    ? 'navbarItems active'
+                    : 'navbarItems'
+                }
+              >
+                Projects
+              </a>
             </Link>
           </li>
           <li>
             <Link href='/blogs' passHref>
-              <a className={router.pathname == '/blogs' ? 'navbarItems active' : 'navbarItems'}>Blogs</a>
+              <a
+                className={
+                  router.pathname == '/blogs'
+                    ? 'navbarItems active'
+                    : 'navbarItems'
+                }
+              >
+                Blogs
+              </a>
             </Link>
           </li>
           <li>
             <Link href='/' passHref>
-              <a className={router.pathname == '/' ? 'navbarItems active' : 'navbarItems'}>KnowMe</a>
+              <a
+                className={
+                  router.pathname == '/' ? 'navbarItems active' : 'navbarItems'
+                }
+              >
+                KnowMe
+              </a>
             </Link>
           </li>
         </ul>

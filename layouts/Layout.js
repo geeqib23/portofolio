@@ -9,7 +9,13 @@ function Layout(props) {
       <div className='flex items-center justify-center w-screen h-full bg-dark border-primary'>
         <div className='flex flex-col items-center justify-center h-1/2'>
           <div className='my-4 mb-3 text-primary'>
-            <span className='font-mono text-2xl sm:text-3xl '>👋 Hey! I am </span> <span className='block text-4xl sm:text-6xl text-center font-cursive sm:inline'> Aqib Suhail</span>
+            <span className='font-mono text-2xl sm:text-3xl '>
+              👋 Hey! I am{' '}
+            </span>{' '}
+            <span className='block text-4xl sm:text-6xl text-center font-cursive sm:inline'>
+              {' '}
+              Aqib Suhail
+            </span>
           </div>
           <br></br>
           <div>
@@ -25,12 +31,18 @@ function Layout(props) {
                 </a>
               </li>
               <li>
-                <a href='https://www.instagram.com/aqib_._/' className='icon-instagram'>
+                <a
+                  href='https://www.instagram.com/aqib_._/'
+                  className='icon-instagram'
+                >
                   Instagram
                 </a>
               </li>
               <li>
-                <a href='https://www.linkedin.com/in/aqib-suhail' className='icon-linkedin'>
+                <a
+                  href='https://www.linkedin.com/in/aqib-suhail'
+                  className='icon-linkedin'
+                >
                   LinkedIn
                 </a>
               </li>
@@ -40,7 +52,9 @@ function Layout(props) {
       </div>
       <div className='flex flex-col items-center w-screen h-full row-span-2 bg-darkBlack'>
         <Navbar />
-        <div className='flex items-center justify-center w-11/12 mt-9'>{props.children}</div>
+        <div className='flex items-center justify-center w-11/12 mt-9'>
+          {props.children}
+        </div>
       </div>
       {/* <Footer /> */}
     </div>

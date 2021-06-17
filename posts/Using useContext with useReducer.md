@@ -1,18 +1,18 @@
 ---
 title: Using useContext with useReducer - a powerful and efficient way of managing global states
 date: 16 June 2021
-description: After reading this, you wont have to manually pass props in your react app again and again and question your existence!
+description: This article teaches a better way of managing and passing state in your complex reac app so you dont have to pass it down the components as props again and again.
 ---
 
-In this read, you'll learn dealing with states in your large React app in a better way. You wont have to manually pass props in your again and again and question your existence!
+In this read, you'll learn dealing with states in your large React app in a better way. You wont have to manually pass props in your again and again!
 
 [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer) hook when combined with the [useContext](https://reactjs.org/docs/hooks-reference.html#usecontext) hook, provides us a structured and efficient way of managing and passing state values around your app. Also, if you haven't heard of these hooks, I would advise you to go through them before reading further.
 
-Lemme show you how to do it with a practical example. 
+Lemme show you how to do it with a practical example.
 
 ### Defining our useReducer
 
-Let's suppose that we need two state variables in our highest level component in `App.js` - a `user` object with two properties, `name` and `email` and a `loginStatus`boolean variable. 
+Let's suppose that we need two state variables in our highest level component in `App.js` - a `user` object with two properties, `name` and `email` and a `loginStatus`boolean variable.
 
 We'll use useReducer to store and manage them.
 
@@ -20,7 +20,7 @@ We'll use useReducer to store and manage them.
 //App .js
 
 const [state, dispatch] = useReducer(reducer, initialState)
-//initial state values 
+//initial state values
 const initialState = {
   user : {
 	   username: "",
@@ -31,7 +31,7 @@ const initialState = {
 // Reducer function
 const reducer = (state, action) => {
 	if(action.type == 'changeUsername')
-	   return { 
+	   return {
 		     user : {
 			      username:action.value,
 			      email: state.user.email
@@ -57,7 +57,7 @@ export default StateContext
 
 and similarly for `UpdateContext`
 
-Now we'll pass the values down the child components by juts wrapping them around *Context.Provider* tags in `App.js` .
+Now we'll pass the values down the child components by juts wrapping them around _Context.Provider_ tags in `App.js` .
 
 ```jsx
 //App.js
@@ -68,20 +68,20 @@ import DispatchContext from './DispatchContext'
 
 //in JSX
 return (
-    <div>
-        <StateContext.Provider value={state}>
-          <UpdateContext.Provider value={setState}>
-                <Profile />
-		<EditProfile />
-          </UpdateContext.Provider>
-        </StateContext.Provider>
-    </div>
-  )
+  <div>
+    <StateContext.Provider value={state}>
+      <UpdateContext.Provider value={setState}>
+        <Profile />
+        <EditProfile />
+      </UpdateContext.Provider>
+    </StateContext.Provider>
+  </div>
+)
 ```
 
 ### Consuming the contexts in child components
 
-Now we'll use the `useContext` hook provided by React so child component `Profile` can access the `state` values and another child component `EditProfile` can access the  `dispatch` function. 
+Now we'll use the `useContext` hook provided by React so child component `Profile` can access the `state` values and another child component `EditProfile` can access the `dispatch` function.
 
 ```jsx
 //Profile.js
