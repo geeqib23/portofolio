@@ -5,7 +5,7 @@ import Header from '../components/Header'
 
 function BlogLayout(props) {
   // console.log(props)
-  const site = 'https://aqibs.me'
+  const site = 'https://www.aqibs.me'
   return (
     <main>
       <Head>
@@ -22,7 +22,11 @@ function BlogLayout(props) {
           property='og:description'
           content='A portfolio of Aqib Suhail. Updating the progress of projects and summarising key information from what I read online - hopefully providing value.'
         />
-        <meta name='og:image' content={`https://${site}/preview.jpg`} />
+        <meta
+          name='image'
+          property='og:image'
+          content={`${site}/preview.jpg`}
+        />
 
         <meta name='twitter:card' content='summary' />
         <meta name='twitter:site' content='@geeqib23' />
