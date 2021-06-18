@@ -1,13 +1,18 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   mode: 'jit',
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './layouts/**/*.{js,ts,jsx,tsx}'],
+  purge: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './layouts/**/*.{js,ts,jsx,tsx}',
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
       cursive: ['Satisfy', 'cursive'],
-      sans: [...defaultTheme.fontFamily.sans],
-      serif: [...defaultTheme.fontFamily.serif],
+      sans: 'ui-sans-serif, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
+      serif:
+        'ui-sans-serif, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
       mono: [...defaultTheme.fontFamily.mono],
     },
     extend: {},
@@ -31,12 +36,11 @@ module.exports = {
       darkLight: '#63666b',
 
       fontColor: '#fff',
+      alternativeFont: '#c5c2b8',
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [
-    require('@tailwindcss/typography')
-  ],
+  plugins: [require('@tailwindcss/typography')],
 }

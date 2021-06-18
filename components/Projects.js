@@ -33,22 +33,22 @@ function Projects(props) {
                 Tech Stack:
               </div>
               <div>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   ReactJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   Bootstrap
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   MongoDB
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   NodeJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   ExpressJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   Mapbox
                 </span>
               </div>
@@ -86,8 +86,8 @@ function Projects(props) {
             <div className='mx-2 my-2 mr-5'>
               <p className='text-base text-fontColor'>
                 This app is a kind of Facebook clone with users able to post,
-                follow and chat(in real-time) with each other. All CRUD (Create,
-                Read, Update, Delete) operations were implemented.{' '}
+                follow each other and chat(in real-time) with each other. All
+                CRUD (Create, Read, Update, Delete) operations were implemented.{' '}
               </p>
             </div>
             <div>
@@ -96,20 +96,20 @@ function Projects(props) {
                 Tech Stack:
               </div>
               <div>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   ReactJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   Bootstrap
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   MongoDB
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   NodeJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
-                  WebSockets
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                  Socket.IO
                 </span>
               </div>
             </div>
@@ -157,19 +157,19 @@ function Projects(props) {
                 Tech Stack:
               </div>
               <div>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   ReactJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   TailwindCSS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   Socket.IO
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   NodeJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   ExpressJS
                 </span>
               </div>
@@ -216,19 +216,19 @@ function Projects(props) {
                 Tech Stack:
               </div>
               <div>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   NodeJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   MongoDB
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   Mongoose
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   JWT
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm font-thin transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
                   ExpressJS
                 </span>
               </div>
@@ -246,6 +246,63 @@ function Projects(props) {
             </div>
           </div>
           {/* <div className='flex justify-center w-full sm:w-1/2 sm:justify-start'><img className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl' src='/images/fbclone.png'></img></div> */}
+        </div>
+
+        {/* /// */}
+
+        <div className='flex flex-col-reverse items-center justify-center mb-2 sm:flex-row sm:justify-center'>
+          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded shadow-lg cursor-default select-none bg-dark hover:scale-110'>
+            <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>
+              Personal Portofolio
+            </div>
+            <div className='mx-2 my-2 mr-5'>
+              <p className='text-base text-fontColor'>
+                My personal portofolio website where i update the progress of my
+                projects and post blogs - hopefully providing value
+              </p>
+            </div>
+            <div>
+              <div className='ml-2 font-semibold text-gray-400 text-l'>
+                {' '}
+                Tech Stack:
+              </div>
+              <div>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                  ReactJS
+                </span>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                  TailwindCSS
+                </span>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                  NextJS
+                </span>
+                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                  NodeJS
+                </span>
+              </div>
+            </div>
+            <div className='flex mt-2 '>
+              <a
+                href='https://www.aqibs.me/'
+                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+              >
+                Live
+              </a>
+              <a
+                href='https://github.com/geeqib23/portofolio'
+                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+              >
+                Code
+              </a>
+            </div>
+          </div>
+          <div className='flex justify-center w-full sm:w-1/2 sm:justify-start'>
+            <img
+              className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl'
+              src='/preview.jpg'
+              alt='Portofolio Home Page.jpg'
+            ></img>
+          </div>
         </div>
       </div>
     </div>
