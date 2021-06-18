@@ -2,7 +2,7 @@ import Head from 'next/head'
 const site = 'https://aqib,vercel.app/'
 
 const Schema = ({ post }) => {
-  const site = 'https://aqib.vercel.app'
+  const site = 'https://aqibs.me'
   const { title, description, date, slug } = post
 
   return (
