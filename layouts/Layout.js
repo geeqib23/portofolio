@@ -21,7 +21,7 @@ function Layout(props) {
           property='og:description'
           content='A portfolio of Aqib Suhail. Updating the progress of projects and summarising key information from what I read online - hopefully providing value.'
         />
-        <meta name='og:image' content={`${site}/preview.jpg`} />
+        <meta property='og:image' content={`${site}/preview.jpg`} />
 
         <meta name='twitter:card' content='summary' />
         <meta name='twitter:site' content='@geeqib23' />
