@@ -5,7 +5,7 @@ import Header from '../components/Header'
 
 function BlogLayout(props) {
   // console.log(props)
-  const site = 'https://aqib.vercel.app'
+  const site = 'https://aqibs.me'
   return (
     <main>
       <Head>
