@@ -1,10 +1,8 @@
 import Head from 'next/head'
-const site = 'https://aqib,vercel.app/'
 
 const Schema = ({ post }) => {
-  const site = 'https://www.'
   const { title, description, date, slug } = post
-
+  const site = 'https://www.aqibs.me'
   return (
     <Head>
       <script type='application/ld+json'>{`
