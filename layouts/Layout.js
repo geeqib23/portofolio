@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import Head from 'next/head'
 
 function Layout(props) {
-  const site = 'https://aqibs.me'
+  const site = 'https://www.aqibs.me'
   return (
     <main>
       <Head>
@@ -21,7 +21,11 @@ function Layout(props) {
           property='og:description'
           content='A portfolio of Aqib Suhail. Updating the progress of projects and summarising key information from what I read online - hopefully providing value.'
         />
-        <meta property='og:image' content={`${site}/preview.jpg`} />
+        <meta
+          name='image'
+          property='og:image'
+          content={`${site}/preview.jpg`}
+        />
 
         <meta name='twitter:card' content='summary' />
         <meta name='twitter:site' content='@geeqib23' />

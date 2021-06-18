@@ -7,7 +7,7 @@ function Blog({ posts }) {
   return (
     <div className='container w-full h-full mx-auto my-5'>
       <p className='text-lg sm:text-xl'>
-        I am a geek and read a lot online. In my blogs and tweets, I will try to
+        I am a geek and read a lot online. In my blogs and tweets, I try to
         share with you the insights I have gained from my experiences :){' '}
       </p>
       <br></br>
