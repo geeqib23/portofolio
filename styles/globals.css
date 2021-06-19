@@ -100,6 +100,10 @@
   @apply border-b-2 text-primaryShade;
 }
 
+img.sm\:max-w-xs {
+  max-width: 22rem;
+}
+
 /* ================= */
 
 .social-networks {

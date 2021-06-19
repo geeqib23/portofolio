@@ -37,6 +37,8 @@ module.exports = {
 
       fontColor: '#fff',
       alternativeFont: '#c5c2b8',
+
+      links: '#AABAF3',
     },
   },
   variants: {

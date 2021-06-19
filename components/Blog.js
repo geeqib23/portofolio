@@ -5,7 +5,7 @@ function Blog({ posts }) {
   // console.log(posts)
   const router = useRouter()
   return (
-    <div className='container w-full h-full mx-auto my-5'>
+    <div className='container max-w-7xl h-full my-5'>
       <p className='text-lg sm:text-xl'>
         I am a geek and read a lot online. In my blogs and tweets, I try to
         share with you the insights I have gained from my experiences :){' '}
@@ -32,6 +32,15 @@ function Blog({ posts }) {
           )
         })}
 
+        <div className='m-2 transition-all duration-200 transform rounded-lg cursor-pointer card bg-darkShade border-opacity-80 shadow-md hover:border-opacity-0 hover:-translate-y-2'>
+          <div className='m-3'>
+            <h2 className='mb-2 text-lg font-bold text-fontColor'>
+              Coming soon :P
+            </h2>
+            <p className='font-mono text-sm text-alternativeFont font-semibold '></p>
+            {/* <p className='font-mono text-sm font-light transition-all duration-200 text-secondaryText '>#web #react #node</p> */}
+          </div>
+        </div>
         {/* <div className='m-2 transition-all duration-200 transform border rounded-lg cursor-pointer card bg-darkShade border-opacity-80 border-darkTint hover:shadow-md hover:border-opacity-0 hover:-translate-y-2'>
           <div className='m-3'>
             <h2 className='mb-2 text-lg font-semibold text-blue-50'>Lorem ipsum fugiat voluptas dolore.</h2>
