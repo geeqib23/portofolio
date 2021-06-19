@@ -13,7 +13,7 @@ function Projects(props) {
       <div className='flex flex-col h-full'>
         {/* //// */}
         <div className='flex flex-col-reverse items-center justify-center mb-2 sm:flex-row sm:justify-center'>
-          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded shadow-lg cursor-default select-none bg-dark hover:scale-110'>
+          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
             <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>
               HUMAP
             </div>
@@ -28,41 +28,41 @@ function Projects(props) {
               </p>
             </div>
             <div>
-              <div className='ml-2 font-semibold text-gray-400 text-l'>
+              <div className='ml-2 font-semibold text-alternativeFont'>
                 {' '}
                 Tech Stack:
               </div>
               <div>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   ReactJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   Bootstrap
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   MongoDB
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   NodeJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   ExpressJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   Mapbox
                 </span>
               </div>
             </div>
-            <div className='flex mt-2 '>
+            <div className='flex mt-3 '>
               <a
                 href='https://humap-app.herokuapp.com/'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-1 py-1 mx-2 rounded-sm font-mono text-base font-semibold  text-fontColor bg-opacity-70 hover:bg-opacity-50 transform mouse-pointer bg-primaryShade underline border-secondaryShade focus:outline-none'
               >
                 Live
               </a>
               <a
                 href='https://github.com/geeqib23/humap'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-1 py-1 mx-2 rounded-sm font-mono text-base font-semibold  text-fontColor bg-opacity-70 hover:bg-opacity-50 transform mouse-pointer bg-primaryShade underline border-secondaryShade focus:outline-none'
               >
                 Code
               </a>
@@ -70,7 +70,7 @@ function Projects(props) {
           </div>
           <div className='flex justify-center w-full sm:w-1/2 sm:justify-start'>
             <img
-              className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl'
+              className='z-0 w-full transition-all duration-150 border-2 border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs rounded-lg hover:scale-110 rounded-b-none sm:rounded-b-lg'
               src='/images/humap.png'
               alt='humap.png'
             ></img>
@@ -79,7 +79,7 @@ function Projects(props) {
         {/* //// */}
 
         <div className='flex flex-col-reverse items-center justify-center mb-2 sm:flex-row sm:justify-center'>
-          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded shadow-lg cursor-default select-none bg-dark hover:scale-110'>
+          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
             <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>
               SOCIAL MEDIA APP
             </div>
@@ -91,38 +91,38 @@ function Projects(props) {
               </p>
             </div>
             <div>
-              <div className='ml-2 font-semibold text-gray-400 text-l'>
+              <div className='ml-2 font-semibold text-alternativeFont'>
                 {' '}
                 Tech Stack:
               </div>
               <div>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   ReactJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   Bootstrap
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   MongoDB
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   NodeJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   Socket.IO
                 </span>
               </div>
             </div>
-            <div className='flex mt-2 '>
+            <div className='flex mt-3 '>
               <a
                 href='https://suspicious-ptolemy-828858.netlify.app/'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-1 py-1 mx-2 rounded-sm font-mono text-base font-semibold  text-fontColor bg-opacity-70 hover:bg-opacity-50 transform mouse-pointer bg-primaryShade underline border-secondaryShade focus:outline-none'
               >
                 Live
               </a>
               <a
                 href='https://github.com/geeqib23/social-media-app-react'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-1 py-1 mx-2 rounded-sm font-mono text-base font-semibold  text-fontColor bg-opacity-70 hover:bg-opacity-50 transform mouse-pointer bg-primaryShade underline border-secondaryShade focus:outline-none'
               >
                 Code
               </a>
@@ -130,7 +130,7 @@ function Projects(props) {
           </div>
           <div className='flex justify-center flex-auto w-full sm:w-1/2 sm:justify-start'>
             <img
-              className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl'
+              className='z-0 w-full transition-all duration-150 border-2 border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs rounded-lg hover:scale-110 rounded-b-none sm:rounded-b-lg'
               src='/images/fbclone.png'
               alt='fbclone.png'
               alt='ourtube.png'
@@ -140,7 +140,7 @@ function Projects(props) {
         {/* //// */}
 
         <div className='flex flex-col-reverse items-center justify-center mb-2 sm:flex-row sm:justify-center'>
-          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded shadow-lg cursor-default select-none bg-dark hover:scale-110'>
+          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
             <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>
               OurTube
             </div>
@@ -152,44 +152,44 @@ function Projects(props) {
               </p>
             </div>
             <div>
-              <div className='ml-2 font-semibold text-gray-400 text-l'>
+              <div className='ml-2 font-semibold text-alternativeFont'>
                 {' '}
                 Tech Stack:
               </div>
               <div>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   ReactJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   TailwindCSS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   Socket.IO
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   NodeJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   ExpressJS
                 </span>
               </div>
             </div>
-            <div className='flex mt-2 '>
-              {/* <a href='https://suspicious-ptolemy-828858.netlify.app/' className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'>
+            <div className='flex mt-3 '>
+              {/* <a href='https://suspicious-ptolemy-828858.netlify.app/' className='px-1 py-1 mx-2 rounded-sm font-mono text-base font-semibold  text-fontColor bg-opacity-70 hover:bg-opacity-50 transform mouse-pointer bg-primaryShade underline border-secondaryShade focus:outline-none'>
                 Live
               </a> */}
               <a
                 href='https://github.com/akash-kd/devjam'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-1 py-1 mx-2 rounded-sm font-mono text-base font-semibold  text-fontColor bg-opacity-70 hover:bg-opacity-50 transform mouse-pointer bg-primaryShade underline border-secondaryShade focus:outline-none'
               >
                 Code
               </a>
             </div>
           </div>
-          <div className='flex justify-center flex-auto w-full sm:w-1/2 sm:justify-start'>
+          <div className='flex justify-center flex-auto w-full sm:w-1/2 sm:justify-start hover:scale-110'>
             <img
               alt='ourtube.jpg'
-              className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl'
+              className='z-0 w-full transition-all duration-150 border-2 border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs rounded-lg hover:scale-110 rounded-b-none sm:rounded-b-lg'
               src='/images/ourtube.png'
               alt='ourtube.png'
             ></img>
@@ -199,7 +199,7 @@ function Projects(props) {
         {/* //// */}
 
         <div className='flex flex-col-reverse items-center mb-2 sm:flex-row '>
-          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded shadow-lg cursor-default select-none bg-dark hover:scale-110'>
+          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
             <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>
               A TASK MANAGER APP API
             </div>
@@ -211,47 +211,47 @@ function Projects(props) {
               </p>
             </div>
             <div>
-              <div className='ml-2 font-semibold text-gray-400 text-l'>
+              <div className='ml-2 font-semibold text-alternativeFont'>
                 {' '}
                 Tech Stack:
               </div>
               <div>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   NodeJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   MongoDB
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   Mongoose
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   JWT
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   ExpressJS
                 </span>
               </div>
             </div>
-            <div className='flex mt-2 '>
-              {/* <a href='https://suspicious-ptolemy-828858.netlify.app/' className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'>
+            <div className='flex mt-3 '>
+              {/* <a href='https://suspicious-ptolemy-828858.netlify.app/' className='px-1 py-1 mx-2 rounded-sm font-mono text-base font-semibold  text-fontColor bg-opacity-70 hover:bg-opacity-50 transform mouse-pointer bg-primaryShade underline border-secondaryShade focus:outline-none'>
                 Live
               </a> */}
               <a
                 href='https://github.com/geeqib23/task-manager-api-node'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-1 py-1 mx-2 rounded-sm font-mono text-base font-semibold  text-fontColor bg-opacity-70 hover:bg-opacity-50 transform mouse-pointer bg-primaryShade underline border-secondaryShade focus:outline-none'
               >
                 Code
               </a>
             </div>
           </div>
-          {/* <div className='flex justify-center w-full sm:w-1/2 sm:justify-start'><img className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl' src='/images/fbclone.png'></img></div> */}
+          {/* <div className='flex justify-center w-full sm:w-1/2 sm:justify-start'><img className='z-0 w-full transition-all duration-150 border-2 border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs rounded-lg hover:scale-110 rounded-b-none sm:rounded-b-lg' src='/images/fbclone.png'></img></div> */}
         </div>
 
         {/* /// */}
 
         <div className='flex flex-col-reverse items-center justify-center mb-2 sm:flex-row sm:justify-center'>
-          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded shadow-lg cursor-default select-none bg-dark hover:scale-110'>
+          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
             <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>
               Personal Portofolio
             </div>
@@ -262,35 +262,35 @@ function Projects(props) {
               </p>
             </div>
             <div>
-              <div className='ml-2 font-semibold text-gray-400 text-l'>
+              <div className='ml-2 font-semibold text-alternativeFont'>
                 {' '}
                 Tech Stack:
               </div>
               <div>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   ReactJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   TailwindCSS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   NextJS
                 </span>
-                <span className='inline-block px-1 py-1 mx-1 my-1 text-sm  transition-all duration-150 transform bg-opacity-75 rounded bg-primaryShade hover:shadow-sm hover:scale-105'>
+                <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
                   NodeJS
                 </span>
               </div>
             </div>
-            <div className='flex mt-2 '>
+            <div className='flex mt-3 '>
               <a
                 href='https://www.aqibs.me/'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-1 py-1 mx-2 rounded-sm font-mono text-base font-semibold  text-fontColor bg-opacity-70 hover:bg-opacity-50 transform mouse-pointer bg-primaryShade underline border-secondaryShade focus:outline-none'
               >
                 Live
               </a>
               <a
                 href='https://github.com/geeqib23/portofolio'
-                className='px-2 py-1 mx-2 font-mono text-lg font-semibold text-blue-700 underline transform rounded mouse-pointer hover:bg-gray-700 focus:outline-none'
+                className='px-1 py-1 mx-2 rounded-sm font-mono text-base font-semibold  text-fontColor bg-opacity-70 hover:bg-opacity-50 transform mouse-pointer bg-primaryShade underline border-secondaryShade focus:outline-none'
               >
                 Code
               </a>
@@ -298,7 +298,7 @@ function Projects(props) {
           </div>
           <div className='flex justify-center w-full sm:w-1/2 sm:justify-start'>
             <img
-              className='z-0 w-11/12 transition-all duration-150 border border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs hover:bg-opacity-50 rounded-xl'
+              className='z-0 w-full transition-all duration-150 border-2 border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs rounded-lg hover:scale-110 rounded-b-none sm:rounded-b-lg'
               src='/preview.jpg'
               alt='Portofolio Home Page.jpg'
             ></img>

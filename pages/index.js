@@ -4,7 +4,7 @@ import Layout from '../layouts/Layout'
 function KnowMe(props) {
   return (
     <Layout title='Aqib Suhail | Portofolio'>
-      <div className='text-lg sm:text-2xl'>
+      <div className=' max-w-4xl text-lg sm:text-2xl'>
         <p className=''>
           I am an 18 year old student from India and a self-taught full-stack
           developer. I can also do some Web Designing.{' '}
@@ -14,7 +14,7 @@ function KnowMe(props) {
           software products that solve a purpose.{' '}
         </p>
         <br></br>
-        <div className='text-2xl font-semibold text-secondary'>
+        <div className='font-semibold text-secondary'>
           SKILLS -{' '}
           <span className='text-lg italic font-light sm:text-2xl text-fontColor'>
             ReactJS, NodeJS, MongoDB, Bootstrap, TailwindCSS, WebSockets,
