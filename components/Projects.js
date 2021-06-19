@@ -13,7 +13,7 @@ function Projects(props) {
       <div className='flex flex-col h-full'>
         {/* //// */}
         <div className='flex flex-col-reverse items-center justify-center mb-2 sm:flex-row sm:justify-center'>
-          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
+          <div className=' sm:w-4/5 z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
             <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>
               HUMAP
             </div>
@@ -71,15 +71,15 @@ function Projects(props) {
           <div className='flex justify-center w-full sm:w-1/2 sm:justify-start'>
             <img
               className='z-0 w-full transition-all duration-150 border-2 border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs rounded-lg hover:scale-110 rounded-b-none sm:rounded-b-lg'
-              src='/images/humap.png'
-              alt='humap.png'
+              src='/images/humap.jpg'
+              alt='humap.jpg'
             ></img>
           </div>
         </div>
         {/* //// */}
 
         <div className='flex flex-col-reverse items-center justify-center mb-2 sm:flex-row sm:justify-center'>
-          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
+          <div className=' sm:w-4/5 z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
             <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>
               SOCIAL MEDIA APP
             </div>
@@ -131,16 +131,15 @@ function Projects(props) {
           <div className='flex justify-center flex-auto w-full sm:w-1/2 sm:justify-start'>
             <img
               className='z-0 w-full transition-all duration-150 border-2 border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs rounded-lg hover:scale-110 rounded-b-none sm:rounded-b-lg'
-              src='/images/fbclone.png'
-              alt='fbclone.png'
-              alt='ourtube.png'
+              src='/images/fbclone.jpg'
+              alt='fbclone.jpg'
             ></img>
           </div>
         </div>
         {/* //// */}
 
         <div className='flex flex-col-reverse items-center justify-center mb-2 sm:flex-row sm:justify-center'>
-          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
+          <div className=' sm:w-4/5 z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
             <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>
               OurTube
             </div>
@@ -190,8 +189,8 @@ function Projects(props) {
             <img
               alt='ourtube.jpg'
               className='z-0 w-full transition-all duration-150 border-2 border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs rounded-lg hover:scale-110 rounded-b-none sm:rounded-b-lg'
-              src='/images/ourtube.png'
-              alt='ourtube.png'
+              src='/images/ourtube.jpg'
+              alt='ourtube.jpg'
             ></img>
           </div>
         </div>
@@ -199,7 +198,7 @@ function Projects(props) {
         {/* //// */}
 
         <div className='flex flex-col-reverse items-center mb-2 sm:flex-row '>
-          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
+          <div className=' sm:w-4/5 z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
             <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>
               A TASK MANAGER APP API
             </div>
@@ -245,13 +244,19 @@ function Projects(props) {
               </a>
             </div>
           </div>
-          {/* <div className='flex justify-center w-full sm:w-1/2 sm:justify-start'><img className='z-0 w-full transition-all duration-150 border-2 border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs rounded-lg hover:scale-110 rounded-b-none sm:rounded-b-lg' src='/images/fbclone.png'></img></div> */}
+          <div className='flex justify-center w-full sm:w-1/2 sm:justify-start'>
+            <img
+              className='z-0 w-full transition-all duration-150 border-2 border-gray-600 border-opacity-50 shadow-lg sm:w-auto sm:max-w-xs rounded-lg hover:scale-110 rounded-b-none sm:rounded-b-lg'
+              src='/images/default_1920x1080.jpg'
+              alt='defalut.jpg'
+            ></img>
+          </div>
         </div>
 
         {/* /// */}
 
         <div className='flex flex-col-reverse items-center justify-center mb-2 sm:flex-row sm:justify-center'>
-          <div className='z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
+          <div className=' sm:w-4/5 z-50 grid h-full grid-cols-1 p-3 mb-3 transition-all duration-150 transform rounded-lg rounded-t-none shadow-lg cursor-default select-none bg-dark'>
             <div className='mb-1 ml-2 text-xl font-semibold text-secondary dark:text-white'>
               Personal Portofolio
             </div>
