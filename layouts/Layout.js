@@ -98,7 +98,7 @@ function Layout(props) {
                 </li>
                 <li>
                   <a
-                    href='https://www.instagram.com/aqib_._/'
+                    href='https://www.instagram.com/aqibs_/'
                     className='icon-instagram'
                   >
                     Instagram
