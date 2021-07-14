@@ -1,5 +1,5 @@
 ---
-title: Using useContext with useReducer - a powerful and efficient way of managing global states
+title: Using useContext with useReducer - a powerful and efficient way of managing global states in React
 date: 16 June 2021
 description: This article teaches a better way of managing and passing state in your complex reac app so you dont have to pass it down the components as props again and again.
 ---
