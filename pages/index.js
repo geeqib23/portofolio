@@ -4,7 +4,7 @@ import Layout from '../layouts/Layout'
 function KnowMe(props) {
   return (
     <Layout title='Aqib Suhail | Portofolio'>
-      <div className=' max-w-4xl text-lg sm:text-2xl'>
+      <div className=' max-w-4xl text-lg sm:text-xl'>
         <p className=''>
           I am an 18 year old student from India and a self-taught full-stack
           developer. I can also do some Web Designing.{' '}
@@ -22,7 +22,7 @@ function KnowMe(props) {
           </span>
         </div>
 
-        <div>
+        <div className=' w-full'>
           <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
             ReactJS
           </span>
@@ -53,10 +53,25 @@ function KnowMe(props) {
         </div>
         <br></br>
         <div className=''>
-          You can reach out to me on Twitter where I am quite active in the{' '}
-          <i>'TechTwitter'</i> space.
+          You can reach out to me on{' '}
+          <a
+            className='underline italic hover:text-primaryLight'
+            href='https://twitter.com/geeqib23'
+          >
+            Twitter
+          </a>{' '}
+          where I am quite active in the Tech Twitter space.
         </div>
-        <div>Also, check out my Instagram where I upload my music :P </div>
+        <div>
+          Also, check out my{' '}
+          <a
+            className='underline italic hover:text-primaryLight'
+            href='https://instagram.com/aqibs_/'
+          >
+            Instagram
+          </a>{' '}
+          where I upload my music :P{' '}
+        </div>
       </div>
     </Layout>
   )
