@@ -197,6 +197,21 @@ img.sm\:max-w-xs {
 .social-networks .icon-github:focus:after {
   color: black;
 }
+
+.social-networks .icon-mail:after {
+  content: '🖂';
+  font-weight: 900;
+}
+.social-networks .icon-mail:hover:before,
+.social-networks .icon-mail:focus:before {
+  background: white;
+  opacity: 0.8;
+}
+.social-networks .icon-mail:hover:after,
+.social-networks .icon-mail:focus:after {
+  color: black;
+}
+
 .social-networks .icon-instagram:after {
   content: '';
 }

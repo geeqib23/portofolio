@@ -7,11 +7,11 @@ function KnowMe(props) {
       <div className=' max-w-4xl text-lg sm:text-xl'>
         <p className=''>
           I am an 18 year old student from India and a self-taught full-stack
-          developer. I can also do some Web Designing.{' '}
+          developer.{' '}
         </p>
         <p className=''>
-          I pickup my skills loitering over the web trying to learn and build or
-          contribute to software products that solve a purpose.{' '}
+          I pickup my skills loitering over the web trying to explore, learn and
+          build or contribute to software products that solve a purpose.{' '}
         </p>
         <br></br>
         <div className='font-semibold text-secondary'>
@@ -25,6 +25,9 @@ function KnowMe(props) {
         <div className=' w-full'>
           <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
             ReactJS
+          </span>
+          <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
+            React Native
           </span>
           <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
             NodeJS
@@ -53,14 +56,14 @@ function KnowMe(props) {
         </div>
         <br></br>
         <div className=''>
-          You can reach out to me on{' '}
+          You can find me on{' '}
           <a
             className='underline italic hover:text-primaryLight'
             href='https://twitter.com/geeqib23'
           >
             Twitter
           </a>{' '}
-          where I am quite active in the Tech Twitter space.
+          active in the Tech Twitter space.
         </div>
         <div>
           Also, check out my{' '}
@@ -70,7 +73,7 @@ function KnowMe(props) {
           >
             Instagram
           </a>{' '}
-          where I upload my music :P{' '}
+          where I upload my music :){' '}
         </div>
       </div>
     </Layout>

@@ -112,6 +112,14 @@ function Layout(props) {
                     LinkedIn
                   </a>
                 </li>
+                <li>
+                  <a
+                    href='https://www.linkedin.com/in/aqib-suhail'
+                    className='icon-mail'
+                  >
+                    E-Mail
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
