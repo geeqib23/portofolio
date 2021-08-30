@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Head from 'next/head'
+// import ReactComponent from '../public/images/envelop.svg'
 
 function Layout(props) {
   const site = 'https://www.aqibs.me'
@@ -113,12 +114,12 @@ function Layout(props) {
                   </a>
                 </li>
                 <li>
-                  <a
+                  {/* <a
                     href='https://www.linkedin.com/in/aqib-suhail'
-                    className='icon-mail'
+                    // className='icon-mail'
                   >
-                    E-Mail
-                  </a>
+                    <img src={ReactComponent} alt='Mail'></img>
+                  </a> */}
                 </li>
               </ul>
             </div>
