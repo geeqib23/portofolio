@@ -87,7 +87,7 @@
 }
 
 .navbarItems {
-  @apply px-4 font-mono text-lg font-medium transition-all duration-100 text-secondary hover:text-primaryLight border-primaryTint md:text-2xl md:px-8;
+  @apply px-4 font-mono font-semibold text-lg transition-all duration-100 text-secondary hover:text-primaryLight border-primaryTint md:text-2xl md:px-8;
 }
 
 .footer {

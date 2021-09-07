@@ -11,48 +11,11 @@ function KnowMe(props) {
         </p>
         <p className=''>
           I pickup my skills loitering over the web trying to explore, learn and
-          build or contribute to software products that solve a purpose.{' '}
+          build software products that solve a purpose.{' '}
         </p>
         <br></br>
-        <div className='font-semibold text-secondary'>
-          STACK -{' '}
-          <span className=' font-light text-fontColor text-base'>
-            (Frameworks/technologies that i have used in past and I am fairly
-            comfortable with)
-          </span>
-        </div>
-
-        <div className=' w-full'>
-          <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
-            ReactJS
-          </span>
-          <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
-            React Native
-          </span>
-          <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
-            NodeJS
-          </span>
-          <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
-            MongoDB
-          </span>
-          <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
-            TailwindCSS
-          </span>
-          <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
-            ExpressJS
-          </span>
-          <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
-            NextJS
-          </span>
-          <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
-            Websockets
-          </span>
-          <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
-            Bootstrap
-          </span>
-          <span className='inline-block px-1 mx-1  font-semibold  transition-all duration-150 transform text-links italic hover:shadow-sm hover:scale-105'>
-            Figma
-          </span>
+        <div>
+          Apart from tech, I am mad about football⚽, music🎤 and memes😁.
         </div>
         <br></br>
         <div className=''>
@@ -74,6 +37,47 @@ function KnowMe(props) {
             Instagram
           </a>{' '}
           where I upload my music :){' '}
+        </div>
+        <br></br>
+        <div className='font-semibold text-xl text-secondary'>
+          STACK -{' '}
+          <span className=' font-light text-fontColor text-base'>
+            (Frameworks/technologies that i have used in past and I am fairly
+            comfortable with)
+          </span>
+        </div>
+
+        <div className=' w-full'>
+          <span className='inline-block px-1 mx-1  font-mono  transition-all duration-150 transform text-links text-lg hover:shadow-sm hover:scale-105'>
+            React
+          </span>
+          <span className='inline-block px-1 mx-1  font-mono  transition-all duration-150 transform text-links text-lg hover:shadow-sm hover:scale-105'>
+            ReactNative
+          </span>
+          <span className='inline-block px-1 mx-1  font-mono  transition-all duration-150 transform text-links text-lg hover:shadow-sm hover:scale-105'>
+            NodeJS
+          </span>
+          <span className='inline-block px-1 mx-1  font-mono  transition-all duration-150 transform text-links text-lg hover:shadow-sm hover:scale-105'>
+            MongoDB
+          </span>
+          <span className='inline-block px-1 mx-1  font-mono  transition-all duration-150 transform text-links text-lg hover:shadow-sm hover:scale-105'>
+            TailwindCSS
+          </span>
+          <span className='inline-block px-1 mx-1  font-mono  transition-all duration-150 transform text-links text-lg hover:shadow-sm hover:scale-105'>
+            ExpressJS
+          </span>
+          <span className='inline-block px-1 mx-1  font-mono  transition-all duration-150 transform text-links text-lg hover:shadow-sm hover:scale-105'>
+            NextJS
+          </span>
+          <span className='inline-block px-1 mx-1  font-mono  transition-all duration-150 transform text-links text-lg hover:shadow-sm hover:scale-105'>
+            Websockets
+          </span>
+          <span className='inline-block px-1 mx-1  font-mono  transition-all duration-150 transform text-links text-lg hover:shadow-sm hover:scale-105'>
+            Bootstrap
+          </span>
+          <span className='inline-block px-1 mx-1  font-mono  transition-all duration-150 transform text-links text-lg hover:shadow-sm hover:scale-105'>
+            Figma
+          </span>
         </div>
       </div>
     </Layout>
